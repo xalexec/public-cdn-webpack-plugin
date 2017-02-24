@@ -54,6 +54,8 @@ new CDNWebpackPlugin(config.build.cdn)
 ## License
 The MIT License(http://opensource.org/licenses/MIT)
 
+Copyright (c) 2017-present, alex <xalexec@gmail.com>
+
 请自由地享受和参与开源
 
 ## 贡献
