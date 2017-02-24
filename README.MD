@@ -4,7 +4,7 @@ PublicCDNWebpackPlugin
 [![npm version](https://img.shields.io/npm/v/public-cdn-webpack-plugin.svg)](https://www.npmjs.org/package/public-cdn-webpack-plugin)
 
 
-[中文文档](https://github.com/xalexec/PublicCDNWebpackPlugin/README_zh-cn.md)
+[中文文档](https://github.com/xalexec/PublicCDNWebpackPlugin/blob/master/README_zh-cn.MD)
 
 ## Intro
 
@@ -61,4 +61,5 @@ If you find a bug or want to contribute to the code or documentation, you can he
 ## License
 
 The MIT License(http://opensource.org/licenses/MIT)
+
 Copyright (c) 2017-present, alex <xalexec@gmail.com>
