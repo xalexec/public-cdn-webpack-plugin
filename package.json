@@ -1,6 +1,6 @@
 {
   "name": "public-cdn-webpack-plugin",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A webpack public cdn plugin, Simplifies inject public cdn to your pages",
   "main": "dist/index.js",
   "scripts": {
