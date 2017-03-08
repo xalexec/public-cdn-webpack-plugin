@@ -1,15 +1,27 @@
-import _Object$assign from 'babel-runtime/core-js/object/assign';
-import _classCallCheck from 'babel-runtime/helpers/classCallCheck';
-import _createClass from 'babel-runtime/helpers/createClass';
+'use strict';
+
+var _assign = require('babel-runtime/core-js/object/assign');
+
+var _assign2 = _interopRequireDefault(_assign);
+
+var _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = require('babel-runtime/helpers/createClass');
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var CDNWebpackPlugin = function () {
   function CDNWebpackPlugin(options) {
-    _classCallCheck(this, CDNWebpackPlugin);
+    (0, _classCallCheck3.default)(this, CDNWebpackPlugin);
 
     this.options = isUndefined(options) ? [] : options;
   }
 
-  _createClass(CDNWebpackPlugin, [{
+  (0, _createClass3.default)(CDNWebpackPlugin, [{
     key: 'apply',
     value: function apply(compiler) {
       var _this = this;
@@ -45,7 +57,7 @@ var CDNWebpackPlugin = function () {
               delete attributes.innerHTML;
             }
             delete attributes.tagName;
-            _Object$assign(content.attributes, attributes);
+            (0, _assign2.default)(content.attributes, attributes);
             if (content.tagName !== 'script') {
               head.push(content);
             } else {
@@ -65,7 +77,6 @@ var CDNWebpackPlugin = function () {
       });
     }
   }]);
-
   return CDNWebpackPlugin;
 }();
 
