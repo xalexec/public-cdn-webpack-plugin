@@ -2,7 +2,7 @@
  * Created by alex on 2017/2/22.
  */
 
-class CDNWebpackPlugin {
+class PublicCDNWebpackPlugin {
   constructor (options) {
     this.options = isUndefined(options) ? [] : options
   }
@@ -61,7 +61,7 @@ class CDNWebpackPlugin {
 }
 
 function isObject (obj) {
-  return Object.prototype.toString.call(obj) === '[object Object]'
+  return obj != null && Object.prototype.toString.call(obj) === '[object Object]'
 }
 
 function isString (obj) {
@@ -72,4 +72,4 @@ function isUndefined (obj) {
   return Object.prototype.toString.call(obj) === '[object Undefined]'
 }
 
-module.exports = CDNWebpackPlugin
+module.exports = PublicCDNWebpackPlugin

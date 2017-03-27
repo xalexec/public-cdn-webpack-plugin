@@ -1,4 +1,4 @@
-PublicCDNWebpackPlugin  
+PublicCDNWebpackPlugin
 ====
 
 [![npm version](https://img.shields.io/npm/v/public-cdn-webpack-plugin.svg)](https://www.npmjs.org/package/public-cdn-webpack-plugin)
@@ -39,6 +39,10 @@ const cdn = [
   {
     tagName: 'link',
     href: 'http://www.qq.com'
+  },
+  {
+    tagName: 'script',
+    innerHTML: '(function(){})()'
   },
   // 虽然可以，但不推荐
   {

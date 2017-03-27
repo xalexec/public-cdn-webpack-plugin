@@ -14,14 +14,14 @@ var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var CDNWebpackPlugin = function () {
-  function CDNWebpackPlugin(options) {
-    (0, _classCallCheck3.default)(this, CDNWebpackPlugin);
+var PublicCDNWebpackPlugin = function () {
+  function PublicCDNWebpackPlugin(options) {
+    (0, _classCallCheck3.default)(this, PublicCDNWebpackPlugin);
 
     this.options = isUndefined(options) ? [] : options;
   }
 
-  (0, _createClass3.default)(CDNWebpackPlugin, [{
+  (0, _createClass3.default)(PublicCDNWebpackPlugin, [{
     key: 'apply',
     value: function apply(compiler) {
       var _this = this;
@@ -77,11 +77,11 @@ var CDNWebpackPlugin = function () {
       });
     }
   }]);
-  return CDNWebpackPlugin;
+  return PublicCDNWebpackPlugin;
 }();
 
 function isObject(obj) {
-  return Object.prototype.toString.call(obj) === '[object Object]';
+  return obj != null && Object.prototype.toString.call(obj) === '[object Object]';
 }
 
 function isString(obj) {
@@ -92,4 +92,4 @@ function isUndefined(obj) {
   return Object.prototype.toString.call(obj) === '[object Undefined]';
 }
 
-module.exports = CDNWebpackPlugin;
+module.exports = PublicCDNWebpackPlugin;

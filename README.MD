@@ -1,4 +1,4 @@
-PublicCDNWebpackPlugin  
+PublicCDNWebpackPlugin
 ====
 
 [![npm version](https://img.shields.io/npm/v/public-cdn-webpack-plugin.svg)](https://www.npmjs.org/package/public-cdn-webpack-plugin)
@@ -8,7 +8,7 @@ PublicCDNWebpackPlugin
 
 ## Intro
 
-PublicCDNWebpackPlugin is a webpack plugin，make the CDN js,css inject to index.html 
+PublicCDNWebpackPlugin is a webpack plugin，make the CDN js,css inject to index.html
 
 ## Dependencies
 
@@ -42,6 +42,10 @@ const cdn = [
   {
     tagName: 'link',
     href: 'http://www.qq.com'
+  },
+  {
+    tagName: 'script',
+    innerHTML: '(function(){})()'
   },
   // not recommend
   {
