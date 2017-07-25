@@ -1,14 +1,14 @@
-PublicCDNWebpackPlugin
+public-cdn-webpack-plugin
 ====
 
 [![npm version](https://img.shields.io/npm/v/public-cdn-webpack-plugin.svg)](https://www.npmjs.org/package/public-cdn-webpack-plugin)
 
 
-[中文文档](https://github.com/xalexec/PublicCDNWebpackPlugin/blob/master/README_zh-cn.MD)
+[中文文档](https://github.com/xalexec/public-cdn-webpack-plugin/blob/master/README_zh-cn.MD)
 
 ## Intro
 
-PublicCDNWebpackPlugin is a webpack plugin，make the CDN js,css inject to index.html
+public-cdn-webpack-plugin is a webpack plugin，make the CDN js,css inject to index.html
 
 ## Dependencies
 

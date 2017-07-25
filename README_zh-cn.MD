@@ -1,11 +1,11 @@
-PublicCDNWebpackPlugin
+public-cdn-webpack-plugin
 ====
 
 [![npm version](https://img.shields.io/npm/v/public-cdn-webpack-plugin.svg)](https://www.npmjs.org/package/public-cdn-webpack-plugin)
 
 ## 概述
 
-PublicCDNWebpackPlugin 是一个 webpack 插件，作用是将 CDN js,css 打包到 index.html 中去，免去手工的麻烦。
+public-cdn-webpack-plugin 是一个 webpack 插件，作用是将 CDN js,css 打包到 index.html 中去，免去手工的麻烦。
 
 ## 依赖
 
